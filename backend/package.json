@@ -1,0 +1,32 @@
+{
+  "name": "jungle-quest-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Jungle Quest - A Gamified Python Learning Platform",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "python",
+    "learning",
+    "gamification",
+    "education",
+    "mern"
+  ],
+  "author": "Jungle Quest Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "python": "file:.."
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

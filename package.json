@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "framer-motion": "^12.23.7",
+    "lottie-react": "^2.4.1",
+    "pyodide": "^0.28.0"
+  },
+  "name": "python",
+  "version": "1.0.0",
+  "description": "A MERN stack-based gamified Python learning platform where students can solve coding challenges, earn badges, and track their progress in a jungle-themed environment.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terrin-susi-rani/python.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Terrin-susi-rani/python/issues"
+  },
+  "homepage": "https://github.com/Terrin-susi-rani/python#readme"
+}
