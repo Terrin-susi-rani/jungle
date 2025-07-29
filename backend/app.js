@@ -29,12 +29,12 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/jungle-qu
 .catch(err => console.error('MongoDB connection error:', err));
 
 // Routes
-app.use('/api/auth', authRoutes);
-app.use('/api/levels', levelRoutes);
-app.use('/api/submissions', submissionRoutes);
+app.use('/auth', authRoutes);
+app.use('/levels', levelRoutes);
+app.use('/submissions', submissionRoutes);
 
 // Health check
-app.get('/api/health', (req, res) => {
+app.get('/health', (req, res) => {
   res.json({ 
     message: 'Jungle Quest API is running!',
     timestamp: new Date().toISOString()

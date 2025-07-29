@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "Backend API for Jungle Quest - A Gamified Python Learning Platform",
   "main": "app.js",
-  "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ "scripts": {
+  "start": "node app.js"
+ },
   "keywords": [
     "python",
     "learning",
